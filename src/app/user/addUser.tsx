@@ -185,8 +185,8 @@ export const UserForm: React.FC<Partial<UserFormProps>> = ({
               <em>Select Role</em>
             </MenuItem>
             <MenuItem value="admin">Admin</MenuItem>
-            <MenuItem value="kasir">Kasir</MenuItem>
-            <MenuItem value="manajer">Manajer</MenuItem>
+            <MenuItem value="kasir">User</MenuItem>
+            {/* <MenuItem value="manajer">Manajer</MenuItem> */}
           </Select>
         </FormControl>
         <Button

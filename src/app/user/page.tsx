@@ -13,7 +13,8 @@ import {
 } from "@mui/material";
 import type { UserProps } from "../types/type";
 
-const USERS_PER_PAGE = 3; // Number of users to display per page
+const USERS_PER_PAGE = 5; // Number of users to display per page
+
 
 export const User = () => {
   const [isEdit, setIsEdit] = useState(false);
